@@ -6,12 +6,15 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FaWrench } from 'react-icons/fa';
 
+// import stylesheets
+import '../stylesheets/cards.css';
+
 class Cards extends Component {
   render() {
     return (
       <div className="segment">
         <ScrollAnimation animateIn="fadeIn">
-          <div className="innerSegment servers__innerSegment">
+          <div className="innerSegment services__innerSegment">
             <h1 className="header">Services</h1>
             <div className="header__underline"></div>
 

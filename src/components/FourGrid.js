@@ -6,6 +6,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FaCode, FaCloud } from 'react-icons/fa';
 
+// import stylesheets
+import '../stylesheets/fourGrid.css';
+
 
 class FourGrid extends Component {
   render() {

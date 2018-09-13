@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 
 // import stylesheets
 import 'normalize.css';
-import './stylesheets/index.css';
 
 // import components
 import App from './components/App'

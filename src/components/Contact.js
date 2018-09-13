@@ -13,7 +13,7 @@ class Contact extends Component {
     return (
       <div className="segment">
         <ScrollAnimation animateIn="fadeIn">
-          <div className="innerSegment servers__innerSegment">
+          <div className="innerSegment services__innerSegment">
             <h1 className="contact__header">Contact</h1>
             <div className="contact__headerUnderline"></div>
             <form className="contact__form">

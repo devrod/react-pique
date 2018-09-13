@@ -1,9 +1,13 @@
 // import libraries
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Link } from 'react-router-dom'
 
 // import images
 import PeopleSVG from '../images/people.svg';
+
+// import stylesheets
+import '../stylesheets/leftPic.css';
 
 class LeftPic extends Component {
   render() {
@@ -11,6 +15,7 @@ class LeftPic extends Component {
       <div className="segment about">
         <ScrollAnimation animateIn="fadeIn">
           <div className="innerSegment about__segment">
+
             <img src={PeopleSVG} className="about__Img" alt="isometric of people"/>
 
             <div className="rightPanel">

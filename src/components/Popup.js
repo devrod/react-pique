@@ -1,6 +1,9 @@
 // import libraries
 import React, { Component } from 'react';
 
+// import stylesheets
+import '../stylesheets/popup.css';
+
 class Popup extends Component {
 
   render() {

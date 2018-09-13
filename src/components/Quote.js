@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
+// import stylesheets
+import '../stylesheets/quote.css';
 
 class Cards extends Component {
 

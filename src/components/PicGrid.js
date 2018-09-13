@@ -10,6 +10,9 @@ import speedReader from'../images/speedReader.png';
 import portfolio from'../images/portfolio.png';
 import todo from'../images/todo.png';
 
+// import stylesheets
+import '../stylesheets/picGrid.css';
+
 
 class PicGrid extends Component {
 

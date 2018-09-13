@@ -1,6 +1,9 @@
 // import libraries
 import React, { Component } from 'react';
 
+// import stylesheets
+import '../stylesheets/footer.css';
+
 class Footer extends Component {
 
   render() {

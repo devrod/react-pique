@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import ScrollAnimation from 'react-animate-on-scroll';
 
 // import stylesheets
-import '../stylesheets/App.css';
+import '../stylesheets/app.css';
 import "../../node_modules/animate.css/animate.min.css";
 
 // import components
@@ -108,7 +108,7 @@ class App extends Component {
       <Router>
        <div>
        {/* all pages */}
-        <Route path='/' render={props =>
+        <Route path='/uproar' render={props =>
            <div>
             <Nav  closeMenu={this.closeMenu}
                   isMobile={this.state.isMobile}
@@ -123,7 +123,7 @@ class App extends Component {
           </div>
         } />
         {/* Home page */}
-        <Route exact path='/'  render={props =>
+        <Route exact path='/uproar'  render={props =>
           <div>
             <Landing  menu={this.state.menu}
                       updatePosition={this.updatePosition}/>
@@ -138,7 +138,7 @@ class App extends Component {
         } />
 
         {/* About page */}
-        <Route path='/about' exact render={props =>
+        <Route path='/uproar/about' exact render={props =>
           <div>
             <LeftPic />
             <FourGrid />
@@ -149,7 +149,7 @@ class App extends Component {
         } />
 
         {/* Contact page */}
-        <Route path='/contact' exact render={props =>
+        <Route path='/uproar/contact' exact render={props =>
           <div>
             <Contact />
             <ThreeIcons showPopup={this.showPopup}
@@ -158,7 +158,7 @@ class App extends Component {
         } />
 
         {/* All pages */}
-        <Route path='/' render={props =>
+        <Route path='/uproar/' render={props =>
           <Footer />
         } />
 

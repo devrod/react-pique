@@ -1,0 +1,11 @@
+.quote__segment {
+  background: #22477a;
+}
+
+.quote__sub {
+  color: #dfdfdf;
+  line-height: 1.6em;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+}

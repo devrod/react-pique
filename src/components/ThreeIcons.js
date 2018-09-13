@@ -6,6 +6,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FaEnvelope } from 'react-icons/fa';
 
+// import stylesheets
+import '../stylesheets/threeIcons.css';
 
 class ThreeIcons extends Component {
 
