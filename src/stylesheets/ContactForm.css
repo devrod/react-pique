@@ -70,10 +70,10 @@
   margin: 0;
   margin-bottom: 30px;
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
   font-size: 30px;
-  color: #22477a;
+  color: #3c7b9a;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
 }
 
 .contact__form {
@@ -111,20 +111,20 @@
 
 .contact__message, .contact__email, .contact__name{
   display: inline-block;
-  background: #fbfbfb;
+  background: #fafeff;
   outline: none;
-  border: 1px solid #eeeeee;
+  border: 1px solid #c3deeb;
   font-weight: 400;
 }
 
 .contact__message::placeholder, .contact__email::placeholder, .contact__name::placeholder {
-  color: #c8c8c8;
+  color: #3a85a9;
   font-weight: 400;
 }
 
 .contact__submit {
   border: none;
-  background: #416eac;
+  background: #33729e;
   color: white;
   padding: 10px 50px;
   border-radius: 5px;
@@ -135,7 +135,7 @@
 
 .contact__submit:hover {
   cursor: pointer;
-  background: #3f87ea;
+  background: #3495d9;
   transition: background 0.3s;
 }
 

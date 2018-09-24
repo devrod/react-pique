@@ -1,4 +1,3 @@
-
 .popup {
   height: 100vh;
   width: 100vw;
@@ -22,6 +21,9 @@
   overflow: auto;
   position: relative;
   box-shadow: 7px 7px 60px -15px;
+  background-image: url("../images/bg.svg");
+  background-position: top center;
+  background-size: cover;
 }
 
 .popup__close {
@@ -54,10 +56,10 @@
 .popup__header {
   padding: 0 0 40px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 40px;
-  color: #22477a;
+  color: #4c9dc3;
   margin: 0;
 }
 
@@ -108,12 +110,10 @@
   }
 }
 
-
 @media only screen and (max-width: 900px) {
   .popup__main__email {
     font-size: 30px;
   }
-
 }
 
 @media only screen and (max-width: 700px) {
@@ -130,7 +130,6 @@
   }
 }
 
-
 @media only screen and (max-width: 500px) {
   .popup__main__email {
     font-size: 15px;
@@ -142,5 +141,4 @@
     transform: none;
     margin-top: 60px;
   }
-
 }

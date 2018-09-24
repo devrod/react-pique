@@ -1,6 +1,6 @@
 
 .offer {
-  background: #416eac;
+  background: #eef7fa;
   padding-bottom: 100px;
 }
 
@@ -42,7 +42,7 @@
   margin: 10px;
   font-size: 35px;
   line-height: 200px;
-  color: white;
+  color: #4c9dc3;
 }
 
 .offer__text {
@@ -54,12 +54,12 @@
 .offer__title {
   margin-top: 0;
   margin-bottom: 0;
-  color: white;
+  color: #4c9dc3;
 }
 
 .offer__subtitle {
   font-size: 14px;
-  color: #cbe1ff;
+  color: #6ca5ce;
   margin-top: 10px;
   font-weight: normal;
   line-height: 22px;
@@ -68,7 +68,7 @@
 
 
 .offer__box:hover .offer__subtitle {
-  color: #f6faff;
+  color: #3875a1;
   transition: color 0.3s
 }
 
@@ -79,6 +79,22 @@
 
 .clearBoth {
   clear: both;
+}
+
+.icon1 {
+  color: #c7aa8d;
+}
+
+.icon2 {
+  color: #bc7877;
+}
+
+.icon3 {
+  color: #77bca5;
+}
+
+.icon4 {
+  color: #8d8dc7;
 }
 
 

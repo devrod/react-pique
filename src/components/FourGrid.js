@@ -16,14 +16,14 @@ class FourGrid extends Component {
       <div className="segment offer">
         <ScrollAnimation animateIn="fadeIn">
           <div className="innerSegment offer__innerSegment">
-            <h1 className="header header-light">What We Offer</h1>
-            <div className="header__underline header__underline__light"></div>
+            <h1 className="header">What We Offer</h1>
+            <div className="header__underline"></div>
             <div className="offer__wrapper">
 
               <div className="offer__column">
                 <div className="offer__box">
                   <div className="offer__icon__container">
-                    <FontAwesomeIcon icon="pencil-ruler" className="offer__icon" />
+                    <FontAwesomeIcon icon="pencil-ruler" className="offer__icon icon1" />
                   </div>
                   <div className="offer__text">
                     <h4 className="offer__title">CUSTOM DESIGN</h4>
@@ -32,7 +32,7 @@ class FourGrid extends Component {
                 </div>
                 <div className="offer__box">
                   <div className="offer__icon__container">
-                    <FaCode className="offer__icon"/>
+                    <FaCode className="offer__icon  icon2"/>
                   </div>
                   <div className="offer__text">
                     <h4 className="offer__title">PERFORMANCE DEVELOPMENT</h4>
@@ -43,7 +43,7 @@ class FourGrid extends Component {
               <div className="offer__column">
                 <div className="offer__box clearBoth">
                   <div className="offer__icon__container">
-                    <FontAwesomeIcon icon="mobile-alt" className="offer__icon" />
+                    <FontAwesomeIcon icon="mobile-alt" className="offer__icon  icon3" />
                   </div>
                   <div className="offer__text">
                     <h4 className="offer__title">MOBILE FRIENDLY</h4>
@@ -52,7 +52,7 @@ class FourGrid extends Component {
                 </div>
                 <div className="offer__box">
                   <div className="offer__icon__container">
-                    <FaCloud className="offer__icon"/>
+                    <FaCloud className="offer__icon  icon4"/>
                   </div>
                   <div className="offer__text">
                     <h4 className="offer__title">WEB HOSTING</h4>

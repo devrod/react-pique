@@ -1,6 +1,6 @@
 
 .footer__text {
-  color: #dfdfdf;
+  color: #ffffff;
   line-height: 1.6em;
   font-weight: normal;
   font-size: 11px;
@@ -11,7 +11,7 @@
 .footer {
   padding: 50px 0;
   position: relative;
-  background: #0b2a54;
+  background: #33729e
 }
 
 .footer__backTop {
@@ -24,4 +24,5 @@
   padding: 10px 20px;
   border-radius: 5px;
   margin: 0;
+
 }

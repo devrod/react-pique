@@ -1,48 +1,74 @@
 // import libraries
-import React, { Component } from 'react';
-import { Link, NavLink } from 'react-router-dom'
+import React, { Component } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 // import stylesheets
-import '../stylesheets/nav.css';
+import "../stylesheets/nav.css";
 
 class Nav extends Component {
-
   render() {
     return (
       <div className="nav">
         <div className="container">
-          <Link to='/uproar' className="nav__logoTitle" onClick={() => this.props.updatePosition('home')}>
-            <div className="nav__icon"></div>
-            <h4 className="nav__title" onClick={() => console.log(this.props.path)}>UPROAR</h4>
-          </Link>
-          <div className="nav__linkContainer" ref="navLinkContainer">
-            <div className="nav__hamburger">
-              <p className="nav__text" id="hamburger">&#9776;</p>
-              <div className="nav__underline"></div>
-            </div>
-            {((!this.props.isMobile) || (this.props.menu && this.props.isMobile)) && (
-            <div className={this.props.position === 'home' ? "nav__dropDown" : 'nav__dropDown__alt'}>
-              <NavLink className="nav__link" exact to="/uproar" activeClassName="nav__active" onClick={() => this.props.updatePosition('home')}>
+          <NavLink
+            className="nav__logo"
+            exact
+            to="/pique"
+            activeClassName="nav__active"
+          >
+            <div className="nav__logoImg" />
+            <p className="nav__logoText">PIQUE</p>
+          </NavLink>
+          <a className="nav__hamburger" onClick={this.props.toggleMobileMenu}>
+            &#9776;
+          </a>
+          <div
+            className={
+              this.props.mobileMenu
+                ? "nav__linkContainer"
+                : "nav__linkContainer nav__hideMobileMenu"
+            }
+          >
+            <p className="nav__closeBtn" onClick={this.props.toggleMobileMenu}>
+              x
+            </p>
+            <div className="nav__linkContainerInner">
+              <NavLink
+                className="nav__link"
+                exact
+                to="/pique"
+                activeClassName="nav__active"
+                onClick={() => this.props.closeMobileMenu()}
+              >
                 <p className="nav__text">Home</p>
-                <div className="nav__underline"></div>
+                <div className="nav__underline" />
               </NavLink>
-              <NavLink className="nav__link" to="/uproar/about" activeClassName="nav__active" onClick={() => this.props.updatePosition('about')}>
+              <NavLink
+                className="nav__link"
+                exact
+                to="/pique/about"
+                activeClassName="nav__active"
+                onClick={() => this.props.closeMobileMenu()}
+              >
                 <p className="nav__text">About</p>
-                <div className="nav__underline"></div>
+                <div className="nav__underline" />
               </NavLink>
-              <NavLink className="nav__link" to="/uproar/contact" activeClassName="nav__active" onClick={() => this.props.updatePosition('contact')}>
+              <NavLink
+                className="nav__link"
+                exact
+                to="/pique/contact"
+                activeClassName="nav__active"
+                onClick={() => this.props.closeMobileMenu()}
+              >
                 <p className="nav__text">Contact</p>
-                <div className="nav__underline"></div>
+                <div className="nav__underline" />
               </NavLink>
             </div>
-          )}
           </div>
         </div>
-        <div className="nav__darkBg__left">
-        </div>
-        <div className="nav__darkBg">
-        </div>
       </div>
-      )}}
+    );
+  }
+}
 
-export default Nav
+export default Nav;

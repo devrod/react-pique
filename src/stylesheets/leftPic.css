@@ -1,60 +1,51 @@
-
 .about {
   padding: 120px 0;
 }
 
 .about__segment {
   display: flex;
-  overflow: visible;
 }
 
 .about__Img {
-  width: calc(100% - 40px);
-  margin-right: 40px;
-}
-
-.about__img__container {
-  width: 100%;
-  margin-left: 5%;
-  margin-left: 5%;
-  float: left;
+  width: 35%;
+  height: 35%;
+  margin-right: 10%;
+  float: right;
+  filter: opacity(85%);
 }
 
 .rightPanel {
-  width: 100%;
+  width: 50%;
+  float: left;
 }
 
 .text__container {
-  width: 100%;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-.about__rightPanel__container {
-  width: 100%;
-  margin-left: 5%;
-  margin-left: 5%;
-  float: left;
-}
-
-
 .about__header {
   margin-top: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-  color: #22477a;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  color: #3c7b9a;
 }
 
 .about__sub {
-  color: gray;
+  color: #5087ae;
   line-height: 1.6em;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 22px;
+  font-family: "Lato", serif;
 }
 
 @media only screen and (max-width: 1050px) {
+  .rightPanel {
+    width: 100%;
+  }
+
   .about__segment {
     display: block;
     text-align: center;
@@ -70,5 +61,71 @@
     width: 100%;
     margin-right: 0;
     max-width: 350px;
+    height: 40vw;
+    margin-right: 0%;
+    float: none;
+  }
+}
+
+.rightPic__segment {
+  display: flex;
+}
+
+.rightPic__Img {
+  width: 35%;
+  height: 35%;
+  margin-left: 10%;
+  float: left;
+}
+
+.rightPic__leftPanel {
+  width: 50%;
+  float: left;
+}
+
+.rightPic__textContainer {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.rightPic__header {
+  margin-top: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  color: #3c7b9a;
+}
+
+.rightPic__sub {
+  color: #5087ae;
+  line-height: 1.6em;
+  font-weight: normal;
+  font-size: 22px;
+  font-family: "Lato", serif;
+}
+
+@media only screen and (max-width: 1050px) {
+  .rightPic__leftPanel {
+    width: 100%;
+  }
+
+  .rightPic__segment {
+    display: block;
+    text-align: center;
+  }
+
+  .rightPic__textContainer {
+    margin-top: 50px;
+    position: initial;
+    transform: none;
+  }
+
+  .rightPic__Img {
+    width: 100%;
+    max-width: 350px;
+    margin-left: 0%;
+    float: none;
+    height: 40vw;
   }
 }
