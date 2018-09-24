@@ -102,7 +102,7 @@ class App extends Component {
         <div>
           {/* all pages */}
           <Route
-            path="/pique"
+            path="/react-pique"
             render={props => (
               <div>
                 <Nav
@@ -120,7 +120,7 @@ class App extends Component {
           {/* Home page */}
           <Route
             exact
-            path="/pique"
+            path="/react-pique"
             render={props => (
               <div>
                 <Landing />
@@ -136,7 +136,7 @@ class App extends Component {
 
           {/* About page */}
           <Route
-            path="/pique/about"
+            path="/react-pique/about"
             exact
             render={props => (
               <div>
@@ -153,7 +153,7 @@ class App extends Component {
 
           {/* Contact page */}
           <Route
-            path="/pique/contact"
+            path="/react-pique/contact"
             exact
             render={props => (
               <div>
@@ -168,7 +168,7 @@ class App extends Component {
 
           {/* All pages */}
           <Route
-            path="/pique/"
+            path="/react-pique/"
             render={props => (
               <div>
                 <Footer />

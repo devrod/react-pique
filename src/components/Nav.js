@@ -13,7 +13,7 @@ class Nav extends Component {
           <NavLink
             className="nav__logo"
             exact
-            to="/pique"
+            to="/react-pique"
             activeClassName="nav__active"
           >
             <div className="nav__logoImg" />
@@ -36,7 +36,7 @@ class Nav extends Component {
               <NavLink
                 className="nav__link"
                 exact
-                to="/pique"
+                to="/react-pique"
                 activeClassName="nav__active"
                 onClick={() => this.props.closeMobileMenu()}
               >
@@ -46,7 +46,7 @@ class Nav extends Component {
               <NavLink
                 className="nav__link"
                 exact
-                to="/pique/about"
+                to="/react-pique/about"
                 activeClassName="nav__active"
                 onClick={() => this.props.closeMobileMenu()}
               >
@@ -56,7 +56,7 @@ class Nav extends Component {
               <NavLink
                 className="nav__link"
                 exact
-                to="/pique/contact"
+                to="/react-pique/contact"
                 activeClassName="nav__active"
                 onClick={() => this.props.closeMobileMenu()}
               >

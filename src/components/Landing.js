@@ -18,7 +18,7 @@ class Landing extends Component {
             <h6 className="title__sub">
               Inovative, fast websites built specifically for your needs.
             </h6>
-            <Link to="/pique/contact" className="title__btn">
+            <Link to="/react-pique/contact" className="title__btn">
               CONTACT
             </Link>
           </div>
