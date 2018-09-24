@@ -1,11 +1,6 @@
 // import libraries
 import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  NavLink
-} from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // import stylesheets
 import "../stylesheets/app.css";
@@ -26,7 +21,6 @@ import ContactForm from "./ContactForm";
 import Popup from "./Popup";
 
 // import images
-import ScreensSvg from "../images/screens.svg";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faPencilRuler,
@@ -36,59 +30,35 @@ import {
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 library.add(faPencilRuler, faLaptopCode, faMobileAlt, faMapMarkerAlt);
 
+// App Component
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      menu: false,
       isMobile: false,
-      position: "home",
       popup: false,
       mobileMenu: false
     };
 
-    this.closeMenu = this.closeMenu.bind(this);
-    this.updatePosition = this.updatePosition.bind(this);
-    this.showPopup = this.showPopup.bind(this);
     this.closePopup = this.closePopup.bind(this);
+    this.showPopup = this.showPopup.bind(this);
     this.toggleMobileMenu = this.toggleMobileMenu.bind(this);
     this.closeMobileMenu = this.closeMobileMenu.bind(this);
   }
 
+  // lifecylce methods
   componentDidMount() {
     window.addEventListener("resize", this.handleWindowResize);
-    window.addEventListener("click", this.closeMenu);
-    this.handleWindowResize();
+    window.addEventListener("click", this.closePopup);
   }
 
   componentWillUnmount() {
     window.removeEventListener("resize", this.handleWindowResize);
-    window.addEventListener("click", this.closeMenu);
+    window.addEventListener("click", this.closePopup);
   }
 
-  handleWindowResize = () => {
-    this.setState({
-      isMobile: window.innerWidth < 1050,
-      menu: false
-    });
-  };
-
-  updatePosition(position) {
-    this.setState({
-      position: position
-    });
-  }
-
-  closeMenu(event) {
-    if (event.target.id === "hamburger") {
-      this.setState(prevState => ({
-        menu: !prevState.menu
-      }));
-    } else {
-      this.setState({
-        menu: false
-      });
-    }
+  // Popup Methods
+  closePopup(event) {
     if (
       event.target.id === "popupBackground" ||
       event.target.id === "popupCloseBtn"
@@ -105,12 +75,12 @@ class App extends Component {
     });
   }
 
-  closePopup() {
-    console.log("close");
+  // Menu methods
+  handleWindowResize = () => {
     this.setState({
-      popup: false
+      isMobile: window.innerWidth < 1050
     });
-  }
+  };
 
   toggleMobileMenu() {
     console.log("toggleMobileMenu");
@@ -125,6 +95,7 @@ class App extends Component {
     });
   }
 
+  // Render
   render() {
     return (
       <Router>
@@ -141,49 +112,24 @@ class App extends Component {
                 />
 
                 {/* popup */}
-                {this.state.popup && (
-                  <Popup
-                    popup={this.state.popup}
-                    closePopup={this.closePopup}
-                  />
-                )}
+                {this.state.popup && <Popup popup={this.state.popup} />}
               </div>
             )}
           />
+
           {/* Home page */}
           <Route
             exact
             path="/pique"
             render={props => (
               <div>
-                <div className="pique">
-                  <div className="container">
-                    <div className="title__box">
-                      <h1 className="title__header">PIQUE WEB DESIGN</h1>
-                      <h6 className="title__sub">
-                        Inovative, fast websites built specifically for your
-                        needs.
-                      </h6>
-                      <Link to="/pique/contact" className="title__btn">
-                        CONTACT
-                      </Link>
-                    </div>
-                    <div className="landingImgContainer">
-                      <img src={ScreensSvg} className="landingImg" />
-                    </div>
-                  </div>
-                </div>
-
+                <Landing />
                 <Cards showPopup={this.showPopup} />
                 <Quote />
                 <LeftPic />
                 <RightPic />
                 <Gallary />
-
-                <TwoOptions
-                  showPopup={this.showPopup}
-                  closePopup={this.closePopup}
-                />
+                <TwoOptions showPopup={this.showPopup} />
               </div>
             )}
           />

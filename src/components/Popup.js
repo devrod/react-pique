@@ -9,11 +9,7 @@ class Popup extends Component {
     return (
       <div className="popup" id="popupBackground">
         <div className="popup__inner">
-          <p
-            className="popup__close"
-            id="popupCloseBtn"
-            onClick={() => this.props.closePopup()}
-          >
+          <p className="popup__close" id="popupCloseBtn">
             X
           </p>
           <div className="popup__content">
@@ -37,15 +33,6 @@ class Popup extends Component {
                 <h1 className="popup__main__email">
                   UproarWebDesign@gmail.com
                 </h1>
-              </div>
-            )}
-            {this.props.popup === "Location" && (
-              <div>
-                <h5 className="popup__subheader">
-                  We are happy to arrange a meeting to discuss the potential
-                  benefits we can offer you or your business.
-                </h5>
-                <h1 className="popup__main__location">Dunedin, New Zealand</h1>
               </div>
             )}
             {this.props.popup === "Website Design" && (

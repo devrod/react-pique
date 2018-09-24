@@ -1,6 +1,5 @@
 // import libraries
 import React, { Component } from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 
 // import images
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

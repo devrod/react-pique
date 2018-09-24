@@ -1,69 +1,115 @@
-.landing {
-  background-color: #416EAD;
-  height: 735px;
+.pique {
+  height: 900px;
+  background: #e0eff6;
+  background-image: url("../images/landingBg.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
-.landing__leftBg__side {
-  -webkit-clip-path: polygon(0 0, 25% 0, 79% 70%, 0% 100%);
-  clip-path: polygon(0 0, 30% 0, 79% 70%, 0% 100%);
-  left: -1px;
-  position: relative;
-  background: #22477A;
-  height: 100%;
-  width: 500px;
-  display: inline-block;
-}
-
-.landing__leftBg {
-  background: #22477A;
-  height: 100%;
-  width: calc(50% - 300px);
-  display: inline-block;
-}
-
-.landing__container {
-  opacity: 1;
-  transition: opacity 0.3s;
-}
-
-.title__container {
-  position: absolute;
-  top: 200px;
-  width: 100%;
+.title__header {
+  font-size: 44px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   color: white;
-  opacity: 0;
 }
 
-.fadeLandingIn {
-  opacity: 1;
-  transition: opacity 0.3s;
+.title__sub {
+  color: #c4def2;
+  margin: 0;
+  font-size: 19px;
+  font-family: "Lato", serif;
+  font-weight: 400;
+  margin-bottom: 15px;
 }
 
+.title__box {
+  margin-top: 240px;
+  width: 45%;
+  margin-left: 5%;
+  float: left;
+}
 
+/* background: #EE870E; */
+.title__btn {
+  background: #f2632e;
+  color: white;
+  width: 132px;
+  line-height: 30px;
+  text-align: center;
+  margin: 20px 20px 20px 0;
+  border-radius: 10px;
+  display: inline-block;
+  border: 2px solid #f2632e;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 14px;
+}
 
+.title__btn:hover {
+  background: #fc4f0f;
+  border: 2px solid #fc4f0f;
+  cursor: pointer;
+  transition: all 1s;
+}
 
+.landingImgContainer {
+  position: relative;
+  padding-top: 7vw;
+  height: calc(380px);
+  float: right;
+  margin-right: 5%;
+  width: 35%;
+  max-height: 400px;
+}
 
+.landingImg {
+  width: 100%;
+  max-width: 370px;
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+}
 
 @media only screen and (max-width: 1050px) {
-  .landing__container {
+  .landingImgContainer {
+    width: 100%;
+    padding-top: 20px;
+    margin: 0;
     text-align: center;
   }
 
   .landingImg {
-    float: none;
-    margin-top: 0;
-    min-width: 250px;
+    margin: auto;
+    position: static;
   }
 
-  .landing__leftBg {
+  .title__box {
     width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 0;
   }
 
-  .landing__leftBg__side {
-    display: none;
+  .title__btn__empty {
+    margin: 20px 0 20px 0;
   }
 
-  .landing {
-    height: 640px;
+  .title__container {
+    top: 150px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .title__btn {
+    width: 45%;
+    margin: 20px 5% 20px 0;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .landingImg {
+    max-width: 60vw;
   }
 }

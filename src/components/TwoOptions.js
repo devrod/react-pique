@@ -2,10 +2,6 @@
 import React, { Component } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
-// import images
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FaEnvelope } from "react-icons/fa";
-
 // import stylesheets
 import "../stylesheets/TwoOptions.css";
 
@@ -24,7 +20,12 @@ class TwoOptions extends Component {
                 Give us a call today to begin the process of us building you a
                 website.
               </p>
-              <button className="twoOptions__btn">CALL US</button>
+              <button
+                className="twoOptions__btn"
+                onClick={() => this.props.showPopup("Phone")}
+              >
+                CALL US
+              </button>
             </div>
             <div className="twoOptions__right">
               <h3 className="twoOptions__innerHeader">Email </h3>
@@ -33,7 +34,12 @@ class TwoOptions extends Component {
                 Email us to get any further information about our website
                 building process.
               </p>
-              <button className="twoOptions__btn">EMAIL US</button>
+              <button
+                className="twoOptions__btn"
+                onClick={() => this.props.showPopup("Email")}
+              >
+                EMAIL US
+              </button>
             </div>
           </div>
         </ScrollAnimation>

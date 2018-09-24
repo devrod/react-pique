@@ -1,6 +1,6 @@
 // import libraries
 import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 // import stylesheets
 import "../stylesheets/nav.css";

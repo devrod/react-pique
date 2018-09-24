@@ -1,0 +1,150 @@
+.nav {
+  height: 80px;
+  background: #e0eff6;
+  background-image: url("../images/navBg.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  box-sizing: border-box;
+}
+
+.nav__logo {
+  line-height: 79px;
+  height: 79px;
+  display: inline-block;
+  color: white;
+  padding-right: 20px;
+}
+
+.nav__logoText {
+  display: inline-block;
+  margin: 0;
+}
+
+.nav__link:hover .nav__underline {
+  display: block;
+}
+
+.nav__logo:hover {
+  cursor: pointer;
+}
+
+.nav__logoImg {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  top: 4px;
+  margin-right: 5px;
+  border-radius: 40%;
+  border: 5px solid white;
+  background: #df5b2a;
+  display: inline-block;
+}
+
+.nav__linkContainer {
+  float: right;
+  position: relative;
+  left: 40px;
+}
+
+.nav__link {
+  padding: 0 40px;
+  line-height: 80px;
+  height: 80px;
+  font-size: 17px;
+  color: white;
+  display: inline-block;
+}
+
+.nav__link:hover {
+  cursor: pointer;
+}
+
+.nav__text {
+  display: inline-block;
+  margin: 0;
+}
+
+.nav__underline {
+  height: 1px;
+  width: 30px;
+  background: white;
+  margin: auto;
+  position: relative;
+  bottom: 24px;
+  display: none;
+}
+
+.nav__hamburger {
+  padding: 0 40px;
+  line-height: 80px;
+  height: 80px;
+  font-size: 25px;
+  color: white;
+  float: right;
+  display: none;
+}
+
+.nav__hamburger:hover {
+  cursor: pointer;
+}
+
+.nav__closeBtn {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  line-height: 50px;
+  right: 0;
+  padding: 20px 60px;
+  margin: 0;
+  display: none;
+}
+
+.nav__closeBtn:hover {
+  cursor: pointer;
+  color: #df5b2a;
+}
+
+@media only screen and (max-width: 1050px) {
+  .nav__hamburger {
+    display: inline-block;
+  }
+
+  .nav__linkContainerInner {
+    margin-top: calc(50vh - 175px);
+  }
+
+  .nav__linkContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    box-sizing: border-box;
+  }
+
+  .nav__link {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    height: 110px;
+  }
+
+  .nav__link:hover {
+    color: #28abe2;
+  }
+
+  .nav__link:hover .nav__underline {
+    display: none;
+  }
+
+  .nav__closeBtn {
+    display: block;
+  }
+
+  .nav__hideMobileMenu {
+    display: none;
+  }
+}
