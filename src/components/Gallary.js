@@ -34,14 +34,14 @@ const Gallary = () => {
               style={{ margin: 0, marginBottom: "30px", padding: 0 }}
             >
               <img src={spellingAnalyser} className="port__img" alt="website" />
-              <h4 className="port__img__label">Code Snippets</h4>
+              <h4 className="port__img__label">Spelling Analyser</h4>
             </Tilt>
             <Tilt
               className="port__img__container"
               style={{ margin: 0, marginBottom: "30px", padding: 0 }}
             >
               <img src={typingPracticer} className="port__img" alt="website" />
-              <h4 className="port__img__label">Code Snippets</h4>
+              <h4 className="port__img__label">Typing Practicer</h4>
             </Tilt>
 
             <Tilt
@@ -49,21 +49,21 @@ const Gallary = () => {
               style={{ margin: 0, marginBottom: "30px", padding: 0 }}
             >
               <img src={speedReader} className="port__img" alt="website" />
-              <h4 className="port__img__label">Code Snippets</h4>
+              <h4 className="port__img__label">Speed Reader</h4>
             </Tilt>
             <Tilt
               className="port__img__container"
               style={{ margin: 0, marginBottom: "30px", padding: 0 }}
             >
               <img src={portfolio} className="port__img" alt="website" />
-              <h4 className="port__img__label">Code Snippets</h4>
+              <h4 className="port__img__label">Portfolio</h4>
             </Tilt>
             <Tilt
               className="port__img__container"
               style={{ margin: 0, marginBottom: "30px", padding: 0 }}
             >
               <img src={todo} className="port__img" alt="website" />
-              <h4 className="port__img__label">Code Snippets</h4>
+              <h4 className="port__img__label">Todo App</h4>
             </Tilt>
           </div>
         </div>
