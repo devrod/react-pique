@@ -1,3 +1,7 @@
+* {
+  font-weight: 600;
+}
+
 /* 
 ------- FONTS ----------
 font-family: "Raleway", sans-serif;
@@ -9,7 +13,6 @@ font-family: "Lato", serif;
 
 * {
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
 }
 
 body {

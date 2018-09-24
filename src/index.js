@@ -1,11 +1,11 @@
 // import libraries
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
 // import stylesheets
-import 'normalize.css';
+import "normalize.css";
 
 // import components
-import App from './components/App'
+import App from "./components/App";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));

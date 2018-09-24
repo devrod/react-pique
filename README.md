@@ -1,6 +1,6 @@
 # PIQUE WEBDESIGN
 
-## Deployed
+## View
 
 http://devrod.github.io/pique
 
