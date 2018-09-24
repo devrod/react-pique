@@ -1,5 +1,9 @@
 # PIQUE WEBDESIGN
 
+## Deployed
+
+http://devrod.github.io/pique
+
 ## Purpose
 
 To practice building react sites.
