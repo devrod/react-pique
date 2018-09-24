@@ -1,7 +1,7 @@
 {
   "name": "uproar",
   "version": "0.1.0",
-  "homepage": "http://devrod.github.io/uproar",
+  "homepage": "http://devrod.github.io/pique",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
