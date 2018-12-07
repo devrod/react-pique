@@ -1,5 +1,5 @@
 <div align="center">
- <img src="./src/readme-images/logo.svg" width="100" alt="R logo">
+ <img src="./readme-images/logo.svg" width="100" alt="R logo">
  <br>
  <h1 size="+2">PIQUE WEB DESIGN</h1>
  <h4><i>Multi-page react website employing modern design patterns</i></h4>
@@ -21,7 +21,7 @@
 	</a>
 </p>
 <br>
- <img src="./readme-images/screenshot.png" width="700" alt="landing page scroll animation">
+ <img src="./readme-images/capture.png" width="700" alt="landing page scroll animation">
 </div>
 <br>
 
