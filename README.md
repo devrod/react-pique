@@ -1,6 +1,4 @@
 <div align="center">
- <img src="./readme-images/logo.svg" width="100" alt="R logo">
- <br>
  <h1 size="+2">PIQUE WEB DESIGN</h1>
  <h4><i>Multi-page react website employing modern design patterns</i></h4>
 
