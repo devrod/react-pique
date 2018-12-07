@@ -1,5 +1,5 @@
 <div align="center">
- <img src="./src/images/logo-fade.svg" width="100" alt="R logo">
+ <img src="./src/readme-images/logo.svg" width="100" alt="R logo">
  <br>
  <h1 size="+2">PIQUE WEB DESIGN</h1>
  <h4><i>Multi-page react website employing modern design patterns</i></h4>
@@ -21,13 +21,17 @@
 	</a>
 </p>
 <br>
- <img src="./readme-images/screen-capture.gif" width="700" alt="landing page scroll animation">
+ <img src="./readme-images/screenshot.png" width="700" alt="landing page scroll animation">
 </div>
 <br>
 
 ## Objective
 
-I built this website to improve my understanding of multi-page react websites and implement design principles I had been learning specifically regarding: - Landing Page Design - Isometric Images (Illustrator) - Fonts
+I built this website to improve my understanding of multi-page react websites and implement design principles I had been learning specifically regarding:
+
+- Landing Page Design
+- Isometric Images (Illustrator)
+- Fonts
 
 ## Technologies
 
