@@ -8,16 +8,14 @@
     	src="https://img.shields.io/badge/npm-6.4.1-brightgreen.svg"></a>
     <a href="#"><img
     	alt="size of repository"
-    	src="https://img.shields.io/badge/Size-56.0%20KB-yellowgreen.svg"></a>
+    	src="https://img.shields.io/badge/Size-950%20KB%20-yellowgreen.svg"></a>
     <a href="https://badges.mit-license.org/" target="_blank"><img
     	alt="licence"
     	src="https://img.shields.io/packagist/l/doctrine/orm.svg">
 	</a>
     <a href="#" target="_blank"><img
     	alt="Javascript percentage"
-    	src="https://img.shields.io/badge/Javascript-67.1%25-yellow.svg"
-        style="border: 1px solid black;"
-        >
+    	src="https://img.shields.io/badge/Javascript-59.4%25-yellow.svg">
 	</a>
 </p>
 <br>
