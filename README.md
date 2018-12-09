@@ -19,7 +19,7 @@
 	</a>
 </p>
 <br>
- <img src="./readme-images/capture.png" width="700" alt="landing page scroll animation">
+ <img src="https://github.com/devrod/readme-images/blob/master/pique-screenshot.png?raw=true" width="700" alt="landing page scroll animation">
 </div>
 <br>
 
