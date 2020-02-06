@@ -42,7 +42,7 @@ I built this website to improve my understanding of multi-page react websites an
 
 ## Live Website
 
-https://devrod.github.io/react-pique/ :zap:
+http://rodneycumming.github.io/lorem-ipsum/ :zap:
 
 ## Author
 
