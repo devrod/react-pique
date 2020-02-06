@@ -1,8 +1,8 @@
 {
-  "name": "react-pique",
+  "name": "lorem-ipsum",
   "version": "0.1.0",
-  "homepage": "http://devrod.github.io/react-pique",
-  "private": true,
+  "homepage": "http://RodneyCumming.github.io/lorem-ipsum",
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-solid-svg-icons": "^5.2.0",
