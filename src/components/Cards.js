@@ -24,10 +24,9 @@ class Cards extends Component {
                   className="services__icon services__colour1"
                 />
               </div>
-              <div className="services__boxTitle">WEBSITE DESIGN</div>
+              <div className="services__boxTitle">QUIBUS DE VERITATE</div>
               <div className="services__boxsub">
-                We design beautiful mordern websites that match your brand
-                aesthetics.
+              Quod quidem iam fit etiam in Academia. Numquam hoc ita defendit.
               </div>
             </div>
             <div
@@ -40,10 +39,9 @@ class Cards extends Component {
                   className="services__icon services__colour2"
                 />
               </div>
-              <div className="services__boxTitle">WEBSITE DEVELOPMENT</div>
+              <div className="services__boxTitle">IPSUM DOLOR</div>
               <div className="services__boxsub">
-                We build fast websites with state of the art functionality and
-                user experience.
+              Sed emolumenta communia esse dicuntur, recte autem facta et peccata non habentur communia.
               </div>
             </div>
             <div
@@ -53,9 +51,9 @@ class Cards extends Component {
               <div className="services__iconCircle">
                 <FaWrench className="services__icon services__colour3" />
               </div>
-              <div className="services__boxTitle">WEBSITE MAINTANENCE</div>
+              <div className="services__boxTitle">MAGNO ALIQUO</div>
               <div className="services__boxsub">
-                We can main your website to keep it up to date in every aspect.
+              Nam, ut paulo ante docui, augendae voluptatis finis est doloris omnis amotio. 
               </div>
             </div>
           </div>

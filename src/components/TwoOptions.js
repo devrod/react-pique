@@ -10,35 +10,33 @@ class TwoOptions extends Component {
     return (
       <div className="segment twoOptions">
         <ScrollAnimation animateIn="fadeIn">
-          <h1 className="header">Get In Touch</h1>
+          <h1 className="header">Hoc Natura Vide</h1>
           <div className="header__underline" />
           <div className="innerSegment twoOptions__innerSegment">
             <div className="twoOptions__left">
-              <h3 className="twoOptions__innerHeader">Phone</h3>
+              <h3 className="twoOptions__innerHeader">Salvam</h3>
               <div className="header__underline twoOptions__innerUnderline" />
               <p className="twoOptions__text">
-                Give us a call today to begin the process of us building you a
-                website.
+              Nam et ille apud Trabeam voluptatem animi nimiam laetitiam dicit eandem.
               </p>
               <button
                 className="twoOptions__btn"
-                onClick={() => this.props.showPopup("Phone")}
+                onClick={() => this.props.showPopup("Iucundi")}
               >
-                CALL US
+                IUCUNDI
               </button>
             </div>
             <div className="twoOptions__right">
-              <h3 className="twoOptions__innerHeader">Email </h3>
+              <h3 className="twoOptions__innerHeader">Nam et</h3>
               <div className="header__underline header__underline__light twoOptions__innerUnderline" />
               <p className="twoOptions__text">
-                Email us to get any further information about our website
-                building process.
+              Mihi quidem Homerus huius modi quiddam vidisse videatur in iis, quae de Sirenum cantibu.
               </p>
               <button
                 className="twoOptions__btn"
-                onClick={() => this.props.showPopup("Email")}
+                onClick={() => this.props.showPopup("Recte")}
               >
-                EMAIL US
+                RECTE
               </button>
             </div>
           </div>
@@ -49,22 +47,3 @@ class TwoOptions extends Component {
 }
 
 export default TwoOptions;
-
-// <div className="contact__wrapper">
-//   <div className="contact__box" onClick={() => this.props.showPopup('Phone')}>
-//     <div className="contact__iconWrapper">
-//       <div className="contact__iconCircle">
-//         <FontAwesomeIcon icon="mobile-alt" className="contact__icon" />
-//       </div>
-//     </div>
-//     <p className="contact__boxsub">027 6359 269</p>
-//   </div>
-//   <div className="contact__box" onClick={() => this.props.showPopup('Email')}>
-//     <div className="contact__iconWrapper">
-//       <div className="contact__iconCircle">
-//         <FaEnvelope className="contact__icon"/>
-//       </div>
-//     </div>
-//     <p className="contact__boxsub">UproarWebDesign@gmail.com</p>
-//   </div>
-// </div>

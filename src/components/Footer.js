@@ -10,7 +10,7 @@ class Footer extends Component {
       <div className="segment footer">
         <div className="innerSegment">
           <p className="footer__text">
-            &copy; Copyright Pique Web Design 2018. All Rights Reserved.
+            &copy; In quibus doctissimi illi veteres inesse quiddam caeleste. 
           </p>
         </div>
       </div>

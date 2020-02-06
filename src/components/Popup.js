@@ -15,23 +15,21 @@ class Popup extends Component {
           <div className="popup__content">
             <h3 className="popup__header">{this.props.popup}</h3>
             <div className="header__underline" />
-            {this.props.popup === "Phone" && (
+            {this.props.popup === "Iucundi" && (
               <div>
                 <h5 className="popup__subheader">
-                  Give us a call today to with any questions you may have about
-                  how we can help you.
+                Et tamen ego a philosopho, si afferat eloquentiam, non asperner, si non habeat, non admodum flagitem.
                 </h5>
-                <h1 className="popup__main">0800 122 456</h1>
+                <h1 className="popup__main">1234 5667 890</h1>
               </div>
             )}
-            {this.props.popup === "Email" && (
+            {this.props.popup === "Recte" && (
               <div>
                 <h5 className="popup__subheader">
-                  Send us an email and we will get back to you as soon as
-                  posssible.
+                Morbo gravissimo affectus, exul, orbus, egens, torqueatur eculeo: quem hunc appellas, Zeno? 
                 </h5>
                 <h1 className="popup__main__email">
-                  UproarWebDesign@gmail.com
+                LoremIpsum@dolor.com
                 </h1>
               </div>
             )}

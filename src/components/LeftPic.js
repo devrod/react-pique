@@ -22,10 +22,9 @@ class LeftPic extends Component {
 
             <div className="rightPanel">
               <div className="text__container">
-                <h1 className="about__header">About Pique</h1>
+                <h1 className="about__header">Aristippi Vetere</h1>
                 <p className="about__sub">
-                  Founded in 2018 to provide clients with modern and intuitive
-                  websites. We are based in Dunedin, New Zealand.
+                Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Nam si beatus umquam fuisset, beatam vitam usque ad illum a Cyro extructum rogum pertulisset. 
                 </p>
               </div>
             </div>

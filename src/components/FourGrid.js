@@ -16,7 +16,7 @@ class FourGrid extends Component {
       <div className="segment offer">
         <ScrollAnimation animateIn="fadeIn">
           <div className="innerSegment offer__innerSegment">
-            <h1 className="header">What We Offer</h1>
+            <h1 className="header">Sed Non Alienum</h1>
             <div className="header__underline"></div>
             <div className="offer__wrapper">
 
@@ -26,8 +26,8 @@ class FourGrid extends Component {
                     <FontAwesomeIcon icon="pencil-ruler" className="offer__icon icon1" />
                   </div>
                   <div className="offer__text">
-                    <h4 className="offer__title">CUSTOM DESIGN</h4>
-                    <p className="offer__subtitle">Make your site unique to stand out. We can build you a custom made site specifically tailored to your needs, and expressly designed to suit your brand.</p>
+                    <h4 className="offer__title">PLUS SEMPER</h4>
+                    <p className="offer__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nihil enim arbitror esse magna laude dignum, quod te praetermissurum credam aut mortis aut doloris metu.</p>
                   </div>
                 </div>
                 <div className="offer__box">
@@ -35,8 +35,8 @@ class FourGrid extends Component {
                     <FaCode className="offer__icon  icon2"/>
                   </div>
                   <div className="offer__text">
-                    <h4 className="offer__title">PERFORMANCE DEVELOPMENT</h4>
-                    <p className="offer__subtitle">Optimise your site for speed. We build sites with the latest technologies to ensue your site is fast and responsive for clients. We also use best practice code to eliminate bugs now and in the future.</p>
+                    <h4 className="offer__title">HUIC ANTEPONA</h4>
+                    <p className="offer__subtitle">Quid interest, nisi quod ego res notas notis verbis appello, illi nomina nova quaerunt, quibus idem dicant? Quid interest, nisi quod ego res notas notis verbis.</p>
                   </div>
                 </div>
               </div>
@@ -46,8 +46,8 @@ class FourGrid extends Component {
                     <FontAwesomeIcon icon="mobile-alt" className="offer__icon  icon3" />
                   </div>
                   <div className="offer__text">
-                    <h4 className="offer__title">MOBILE FRIENDLY</h4>
-                    <p className="offer__subtitle">Reach your users effectively on mobile. We build our site with mobile users in mind. Our responive layouts make certain users can quickly and easily navigate your site.</p>
+                    <h4 className="offer__title">FAMA GLORIOSUM</h4>
+                    <p className="offer__subtitle"> Quocirca intellegi necesse est in ipsis rebus, quae discuntur et cognoscuntur, invitamenta inesse, quibus ad discendum cognoscendumque moveamur.</p>
                   </div>
                 </div>
                 <div className="offer__box">
@@ -55,8 +55,8 @@ class FourGrid extends Component {
                     <FaCloud className="offer__icon  icon4"/>
                   </div>
                   <div className="offer__text">
-                    <h4 className="offer__title">WEB HOSTING</h4>
-                    <p className="offer__subtitle">{"Deploy your site quickly and securaly with cloud hosting. Cloud hosting means you can easily scale as business grows and is more reliable as it isn't affected by local power disruptions."}</p>
+                    <h4 className="offer__title">ROGES ENIM</h4>
+                    <p className="offer__subtitle">"Deploy your site quickly and securaly with cloud hosting. Cloud hosting means you can easily scale as business grows and is more reliable as it isn't affected by local power disruptions."</p>
                   </div>
                 </div>
               </div>

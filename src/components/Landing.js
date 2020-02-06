@@ -14,12 +14,12 @@ class Landing extends Component {
       <div className="pique">
         <div className="container">
           <div className="title__box">
-            <h1 className="title__header">PIQUE WEB DESIGN</h1>
+            <h1 className="title__header">LOREM IPSUM DOLOR</h1>
             <h6 className="title__sub">
-              Inovative, fast websites built specifically for your needs.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
             </h6>
-            <Link to="/react-pique/contact" className="title__btn">
-              CONTACT
+            <Link to="/quadam" className="title__btn">
+            QUADAM
             </Link>
           </div>
           <div className="landingImgContainer">

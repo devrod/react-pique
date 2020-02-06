@@ -13,11 +13,11 @@ class Nav extends Component {
           <NavLink
             className="nav__logo"
             exact
-            to="/react-pique"
+            to="/"
             activeClassName="nav__active"
           >
             <div className="nav__logoImg" />
-            <p className="nav__logoText">PIQUE</p>
+            <p className="nav__logoText">LOREM</p>
           </NavLink>
           <a className="nav__hamburger" onClick={this.props.toggleMobileMenu}>
             &#9776;
@@ -36,31 +36,31 @@ class Nav extends Component {
               <NavLink
                 className="nav__link"
                 exact
-                to="/react-pique"
+                to=""
                 activeClassName="nav__active"
                 onClick={() => this.props.closeMobileMenu()}
               >
-                <p className="nav__text">Home</p>
+                <p className="nav__text">Alter</p>
                 <div className="nav__underline" />
               </NavLink>
               <NavLink
                 className="nav__link"
                 exact
-                to="/react-pique/about"
+                to="/legem"
                 activeClassName="nav__active"
                 onClick={() => this.props.closeMobileMenu()}
               >
-                <p className="nav__text">About</p>
+                <p className="nav__text">Legem</p>
                 <div className="nav__underline" />
               </NavLink>
               <NavLink
                 className="nav__link"
                 exact
-                to="/react-pique/contact"
+                to="/quadam"
                 activeClassName="nav__active"
                 onClick={() => this.props.closeMobileMenu()}
               >
-                <p className="nav__text">Contact</p>
+                <p className="nav__text">Quadam</p>
                 <div className="nav__underline" />
               </NavLink>
             </div>

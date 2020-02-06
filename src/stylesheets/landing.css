@@ -36,7 +36,8 @@
   background: #f2632e;
   color: white;
   width: 132px;
-  line-height: 30px;
+  width: 160px;
+  line-height: 40px;
   text-align: center;
   margin: 20px 20px 20px 0;
   border-radius: 10px;
@@ -44,12 +45,13 @@
   border: 2px solid #f2632e;
   text-decoration: none;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 17px;
+  transition: all 0.3s;
 }
 
 .title__btn:hover {
-  background: #fc4f0f;
-  border: 2px solid #fc4f0f;
+  background: #ff3b00;
+  border: 2px solid #ff3b00;
   cursor: pointer;
   transition: all 1s;
 }

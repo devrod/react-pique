@@ -18,8 +18,8 @@ class RightPic extends Component {
 
             <div className="rightPic__leftPanel">
               <div className="rightPic__textContainer">
-                <h1 className="rightPic__header">Increase User Experience</h1>
-                <p className="rightPic__sub">Make your website come alive with features that keep your users coming back for more.</p>
+                <h1 className="rightPic__header">Introduci Enim</h1>
+                <p className="rightPic__sub"> Introduci enim virtus nullo modo potest, nisi omnia, quae leget quaeque reiciet.</p>
               </div>
 
             </div>

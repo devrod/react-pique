@@ -59,7 +59,7 @@
   font-size: 16px;
   border-radius: 10px;
   transition: all 0.3s;
-  box-shadow: 4px 3px 22px -6px grey;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   width: 140px;
 }
 
@@ -72,7 +72,7 @@
 .twoOptions__right .twoOptions__btn {
   background: #f57749;
   transition: all 0.3s;
-  box-shadow: 5px 5px 30px -7px black;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 .twoOptions__right .twoOptions__btn:hover {
